@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0908F2EB1A2D405E006AC063 /* flat.png in Resources */ = {isa = PBXBuildFile; fileRef = 0908F2EA1A2D405E006AC063 /* flat.png */; };
+		09539C871A2F649A00FCBCB4 /* flat.png in Resources */ = {isa = PBXBuildFile; fileRef = 09539C861A2F649A00FCBCB4 /* flat.png */; };
 		2CFBA0A31A1CF555000AB590 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFBA0A21A1CF555000AB590 /* AppDelegate.swift */; };
 		2CFBA0A51A1CF555000AB590 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFBA0A41A1CF555000AB590 /* ViewController.swift */; };
 		2CFBA0A81A1CF555000AB590 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFBA0A61A1CF555000AB590 /* Main.storyboard */; };
@@ -27,7 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0908F2EA1A2D405E006AC063 /* flat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flat.png; path = ../../../../Desktop/flat.png; sourceTree = "<group>"; };
+		09539C861A2F649A00FCBCB4 /* flat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flat.png; path = Resources/flat.png; sourceTree = SOURCE_ROOT; };
 		2CFBA09D1A1CF555000AB590 /* Intercultural Living.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intercultural Living.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CFBA0A11A1CF555000AB590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CFBA0A21A1CF555000AB590 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 		2CFBA0A01A1CF555000AB590 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0908F2EA1A2D405E006AC063 /* flat.png */,
+				09539C861A2F649A00FCBCB4 /* flat.png */,
 				2CFBA0A11A1CF555000AB590 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -197,8 +197,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CFBA0A81A1CF555000AB590 /* Main.storyboard in Resources */,
+				09539C871A2F649A00FCBCB4 /* flat.png in Resources */,
 				2CFBA0AD1A1CF555000AB590 /* LaunchScreen.xib in Resources */,
-				0908F2EB1A2D405E006AC063 /* flat.png in Resources */,
 				2CFBA0AA1A1CF555000AB590 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
