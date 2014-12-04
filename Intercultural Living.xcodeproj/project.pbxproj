@@ -14,6 +14,13 @@
 		09539C911A2FB36400FCBCB4 /* icon_stove_not_leave.png in Resources */ = {isa = PBXBuildFile; fileRef = 09539C901A2FB36400FCBCB4 /* icon_stove_not_leave.png */; };
 		09539C941A2FB43800FCBCB4 /* icon_stove_fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 09539C921A2FB43800FCBCB4 /* icon_stove_fire.png */; };
 		09539C951A2FB43800FCBCB4 /* icon_stove_handle.png in Resources */ = {isa = PBXBuildFile; fileRef = 09539C931A2FB43800FCBCB4 /* icon_stove_handle.png */; };
+		099319521A30920800008A42 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099319511A30920800008A42 /* HomeController.swift */; };
+		099319581A30936C00008A42 /* icon_home_living.png in Resources */ = {isa = PBXBuildFile; fileRef = 099319531A30936C00008A42 /* icon_home_living.png */; };
+		099319591A30936C00008A42 /* icon_home_migration_office.png in Resources */ = {isa = PBXBuildFile; fileRef = 099319541A30936C00008A42 /* icon_home_migration_office.png */; };
+		0993195A1A30936C00008A42 /* icon_home_other.png in Resources */ = {isa = PBXBuildFile; fileRef = 099319551A30936C00008A42 /* icon_home_other.png */; };
+		0993195B1A30936C00008A42 /* icon_home_sweden.png in Resources */ = {isa = PBXBuildFile; fileRef = 099319561A30936C00008A42 /* icon_home_sweden.png */; };
+		0993195C1A30936C00008A42 /* icon_home_work_office.png in Resources */ = {isa = PBXBuildFile; fileRef = 099319571A30936C00008A42 /* icon_home_work_office.png */; };
+		0993195E1A309B3800008A42 /* CustomHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993195D1A309B3800008A42 /* CustomHomeCollectionViewCell.swift */; };
 		09E4FF5C1A2FD1040045559A /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E4FF5B1A2FD1040045559A /* CustomCollectionViewCell.swift */; };
 		09E4FF5E1A2FD9C30045559A /* MoviePlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E4FF5D1A2FD9C30045559A /* MoviePlayerView.swift */; };
 		2CFBA0A31A1CF555000AB590 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFBA0A21A1CF555000AB590 /* AppDelegate.swift */; };
@@ -42,6 +49,13 @@
 		09539C901A2FB36400FCBCB4 /* icon_stove_not_leave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_stove_not_leave.png; path = Resources/icon_stove_not_leave.png; sourceTree = SOURCE_ROOT; };
 		09539C921A2FB43800FCBCB4 /* icon_stove_fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_stove_fire.png; path = Resources/icon_stove_fire.png; sourceTree = SOURCE_ROOT; };
 		09539C931A2FB43800FCBCB4 /* icon_stove_handle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_stove_handle.png; path = Resources/icon_stove_handle.png; sourceTree = SOURCE_ROOT; };
+		099319511A30920800008A42 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		099319531A30936C00008A42 /* icon_home_living.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_home_living.png; path = Resources/icon_home_living.png; sourceTree = SOURCE_ROOT; };
+		099319541A30936C00008A42 /* icon_home_migration_office.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_home_migration_office.png; path = Resources/icon_home_migration_office.png; sourceTree = SOURCE_ROOT; };
+		099319551A30936C00008A42 /* icon_home_other.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_home_other.png; path = Resources/icon_home_other.png; sourceTree = SOURCE_ROOT; };
+		099319561A30936C00008A42 /* icon_home_sweden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_home_sweden.png; path = Resources/icon_home_sweden.png; sourceTree = SOURCE_ROOT; };
+		099319571A30936C00008A42 /* icon_home_work_office.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_home_work_office.png; path = Resources/icon_home_work_office.png; sourceTree = SOURCE_ROOT; };
+		0993195D1A309B3800008A42 /* CustomHomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomHomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		09E4FF5B1A2FD1040045559A /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		09E4FF5D1A2FD9C30045559A /* MoviePlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviePlayerView.swift; sourceTree = "<group>"; };
 		2CFBA09D1A1CF555000AB590 /* Intercultural Living.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intercultural Living.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,7 +117,9 @@
 				2CFBA0A01A1CF555000AB590 /* Supporting Files */,
 				09539C881A2F69D300FCBCB4 /* StoveController.swift */,
 				09E4FF5B1A2FD1040045559A /* CustomCollectionViewCell.swift */,
+				0993195D1A309B3800008A42 /* CustomHomeCollectionViewCell.swift */,
 				09E4FF5D1A2FD9C30045559A /* MoviePlayerView.swift */,
+				099319511A30920800008A42 /* HomeController.swift */,
 			);
 			path = "Intercultural Living";
 			sourceTree = "<group>";
@@ -111,6 +127,11 @@
 		2CFBA0A01A1CF555000AB590 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				099319531A30936C00008A42 /* icon_home_living.png */,
+				099319541A30936C00008A42 /* icon_home_migration_office.png */,
+				099319551A30936C00008A42 /* icon_home_other.png */,
+				099319561A30936C00008A42 /* icon_home_sweden.png */,
+				099319571A30936C00008A42 /* icon_home_work_office.png */,
 				09539C921A2FB43800FCBCB4 /* icon_stove_fire.png */,
 				09539C931A2FB43800FCBCB4 /* icon_stove_handle.png */,
 				09539C901A2FB36400FCBCB4 /* icon_stove_not_leave.png */,
@@ -222,11 +243,16 @@
 			files = (
 				09539C951A2FB43800FCBCB4 /* icon_stove_handle.png in Resources */,
 				2CFBA0A81A1CF555000AB590 /* Main.storyboard in Resources */,
+				0993195C1A30936C00008A42 /* icon_home_work_office.png in Resources */,
 				09539C911A2FB36400FCBCB4 /* icon_stove_not_leave.png in Resources */,
 				09539C871A2F649A00FCBCB4 /* flat.png in Resources */,
+				0993195A1A30936C00008A42 /* icon_home_other.png in Resources */,
 				2CFBA0AD1A1CF555000AB590 /* LaunchScreen.xib in Resources */,
+				0993195B1A30936C00008A42 /* icon_home_sweden.png in Resources */,
 				09539C941A2FB43800FCBCB4 /* icon_stove_fire.png in Resources */,
+				099319581A30936C00008A42 /* icon_home_living.png in Resources */,
 				2CFBA0AA1A1CF555000AB590 /* Images.xcassets in Resources */,
+				099319591A30936C00008A42 /* icon_home_migration_office.png in Resources */,
 				09539C8F1A2FB1F500FCBCB4 /* icon_stove_plate_size.png in Resources */,
 				09539C8E1A2FB1F500FCBCB4 /* movie_stove_plate_size.mp4 in Resources */,
 			);
@@ -248,9 +274,11 @@
 			files = (
 				09E4FF5E1A2FD9C30045559A /* MoviePlayerView.swift in Sources */,
 				2CFBA0A51A1CF555000AB590 /* ViewController.swift in Sources */,
+				099319521A30920800008A42 /* HomeController.swift in Sources */,
 				09539C891A2F69D300FCBCB4 /* StoveController.swift in Sources */,
 				2CFBA0A31A1CF555000AB590 /* AppDelegate.swift in Sources */,
 				09E4FF5C1A2FD1040045559A /* CustomCollectionViewCell.swift in Sources */,
+				0993195E1A309B3800008A42 /* CustomHomeCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
