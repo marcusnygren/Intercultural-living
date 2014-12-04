@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		09539C871A2F649A00FCBCB4 /* flat.png in Resources */ = {isa = PBXBuildFile; fileRef = 09539C861A2F649A00FCBCB4 /* flat.png */; };
+		09539C891A2F69D300FCBCB4 /* StoveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09539C881A2F69D300FCBCB4 /* StoveController.swift */; };
+		09539C8E1A2FB1F500FCBCB4 /* movie_stove_plate_size.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09539C8C1A2FB1F500FCBCB4 /* movie_stove_plate_size.mp4 */; };
+		09539C8F1A2FB1F500FCBCB4 /* icon_stove_plate_size.png in Resources */ = {isa = PBXBuildFile; fileRef = 09539C8D1A2FB1F500FCBCB4 /* icon_stove_plate_size.png */; };
+		09539C911A2FB36400FCBCB4 /* icon_stove_not_leave.png in Resources */ = {isa = PBXBuildFile; fileRef = 09539C901A2FB36400FCBCB4 /* icon_stove_not_leave.png */; };
+		09539C941A2FB43800FCBCB4 /* icon_stove_fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 09539C921A2FB43800FCBCB4 /* icon_stove_fire.png */; };
+		09539C951A2FB43800FCBCB4 /* icon_stove_handle.png in Resources */ = {isa = PBXBuildFile; fileRef = 09539C931A2FB43800FCBCB4 /* icon_stove_handle.png */; };
+		09E4FF5C1A2FD1040045559A /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E4FF5B1A2FD1040045559A /* CustomCollectionViewCell.swift */; };
+		09E4FF5E1A2FD9C30045559A /* MoviePlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E4FF5D1A2FD9C30045559A /* MoviePlayerView.swift */; };
 		2CFBA0A31A1CF555000AB590 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFBA0A21A1CF555000AB590 /* AppDelegate.swift */; };
 		2CFBA0A51A1CF555000AB590 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFBA0A41A1CF555000AB590 /* ViewController.swift */; };
 		2CFBA0A81A1CF555000AB590 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFBA0A61A1CF555000AB590 /* Main.storyboard */; };
@@ -28,6 +36,14 @@
 
 /* Begin PBXFileReference section */
 		09539C861A2F649A00FCBCB4 /* flat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flat.png; path = Resources/flat.png; sourceTree = SOURCE_ROOT; };
+		09539C881A2F69D300FCBCB4 /* StoveController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoveController.swift; sourceTree = "<group>"; };
+		09539C8C1A2FB1F500FCBCB4 /* movie_stove_plate_size.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = movie_stove_plate_size.mp4; path = Resources/movie_stove_plate_size.mp4; sourceTree = SOURCE_ROOT; };
+		09539C8D1A2FB1F500FCBCB4 /* icon_stove_plate_size.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_stove_plate_size.png; path = Resources/icon_stove_plate_size.png; sourceTree = SOURCE_ROOT; };
+		09539C901A2FB36400FCBCB4 /* icon_stove_not_leave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_stove_not_leave.png; path = Resources/icon_stove_not_leave.png; sourceTree = SOURCE_ROOT; };
+		09539C921A2FB43800FCBCB4 /* icon_stove_fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_stove_fire.png; path = Resources/icon_stove_fire.png; sourceTree = SOURCE_ROOT; };
+		09539C931A2FB43800FCBCB4 /* icon_stove_handle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_stove_handle.png; path = Resources/icon_stove_handle.png; sourceTree = SOURCE_ROOT; };
+		09E4FF5B1A2FD1040045559A /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		09E4FF5D1A2FD9C30045559A /* MoviePlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviePlayerView.swift; sourceTree = "<group>"; };
 		2CFBA09D1A1CF555000AB590 /* Intercultural Living.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intercultural Living.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CFBA0A11A1CF555000AB590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CFBA0A21A1CF555000AB590 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +101,9 @@
 				2CFBA0A91A1CF555000AB590 /* Images.xcassets */,
 				2CFBA0AB1A1CF555000AB590 /* LaunchScreen.xib */,
 				2CFBA0A01A1CF555000AB590 /* Supporting Files */,
+				09539C881A2F69D300FCBCB4 /* StoveController.swift */,
+				09E4FF5B1A2FD1040045559A /* CustomCollectionViewCell.swift */,
+				09E4FF5D1A2FD9C30045559A /* MoviePlayerView.swift */,
 			);
 			path = "Intercultural Living";
 			sourceTree = "<group>";
@@ -92,6 +111,11 @@
 		2CFBA0A01A1CF555000AB590 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				09539C921A2FB43800FCBCB4 /* icon_stove_fire.png */,
+				09539C931A2FB43800FCBCB4 /* icon_stove_handle.png */,
+				09539C901A2FB36400FCBCB4 /* icon_stove_not_leave.png */,
+				09539C8C1A2FB1F500FCBCB4 /* movie_stove_plate_size.mp4 */,
+				09539C8D1A2FB1F500FCBCB4 /* icon_stove_plate_size.png */,
 				09539C861A2F649A00FCBCB4 /* flat.png */,
 				2CFBA0A11A1CF555000AB590 /* Info.plist */,
 			);
@@ -196,10 +220,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09539C951A2FB43800FCBCB4 /* icon_stove_handle.png in Resources */,
 				2CFBA0A81A1CF555000AB590 /* Main.storyboard in Resources */,
+				09539C911A2FB36400FCBCB4 /* icon_stove_not_leave.png in Resources */,
 				09539C871A2F649A00FCBCB4 /* flat.png in Resources */,
 				2CFBA0AD1A1CF555000AB590 /* LaunchScreen.xib in Resources */,
+				09539C941A2FB43800FCBCB4 /* icon_stove_fire.png in Resources */,
 				2CFBA0AA1A1CF555000AB590 /* Images.xcassets in Resources */,
+				09539C8F1A2FB1F500FCBCB4 /* icon_stove_plate_size.png in Resources */,
+				09539C8E1A2FB1F500FCBCB4 /* movie_stove_plate_size.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,8 +246,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09E4FF5E1A2FD9C30045559A /* MoviePlayerView.swift in Sources */,
 				2CFBA0A51A1CF555000AB590 /* ViewController.swift in Sources */,
+				09539C891A2F69D300FCBCB4 /* StoveController.swift in Sources */,
 				2CFBA0A31A1CF555000AB590 /* AppDelegate.swift in Sources */,
+				09E4FF5C1A2FD1040045559A /* CustomCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

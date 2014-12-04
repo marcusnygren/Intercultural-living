@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var test: UINavigationItem!
     @IBOutlet weak var apartmentImage: UIImageView!
     @IBOutlet weak var xPos: UILabel!
     @IBOutlet weak var yPos: UILabel!
@@ -17,7 +18,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var yPercentage: UILabel!
     
     let tap = UITapGestureRecognizer()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         //init tap
@@ -47,14 +48,20 @@ class ViewController: UIViewController {
         var height : CGFloat = imageBounds.size.height * imageScale
         
         //calculate tapping position in percentage of image width and height
-        var xPer : CGFloat = x / width
-        var yPer : CGFloat = y / height
+        var xPer : CGFloat = 100 * x / width
+        var yPer : CGFloat = 100 * y / height
         
         //print stuff for now
-        xPos.text = pos.x.description
-        yPos.text = pos.y.description
-        xPercentage.text = xPer.description
-        yPercentage.text = yPer.description
+//        xPos.text = pos.x.description
+//        yPos.text = pos.y.description
+//        xPercentage.text = xPer.description
+//        yPercentage.text = yPer.description
+        
+        if ( 79 <= xPer && xPer <= 86 && 85 <= yPer && yPer <= 94 ) {
+            let stoveMainView = self.storyboard?.instantiateViewControllerWithIdentifier("stoveMainView") as StoveController
+            self.navigationController?.pushViewController(stoveMainView, animated: true)
+        }
+        
     }
 
 
