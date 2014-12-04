@@ -59,8 +59,8 @@ class StoveController : UIViewController,UICollectionViewDataSource,UICollection
             myPlayer.moviePlayer.repeatMode = .None
             presentMoviePlayerViewControllerAnimated(myPlayer)
         } else {
-            var alert = UIAlertController(title: "Not available", message: "In this demo version, this movie is yet to be made available.", preferredStyle: UIAlertControllerStyle.Alert)
-            alert.addAction(UIAlertAction(title: "Click", style: UIAlertActionStyle.Default, handler: nil))
+            var alert = UIAlertController(title: "Not available", message: "This clip is not available in the demo version.", preferredStyle: UIAlertControllerStyle.Alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
             self.presentViewController(alert, animated: true, completion: nil)
         }
     }
