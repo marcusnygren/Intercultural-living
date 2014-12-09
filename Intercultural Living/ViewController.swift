@@ -12,10 +12,6 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var test: UINavigationItem!
     @IBOutlet weak var apartmentImage: UIImageView!
-    @IBOutlet weak var xPos: UILabel!
-    @IBOutlet weak var yPos: UILabel!
-    @IBOutlet weak var xPercentage: UILabel!
-    @IBOutlet weak var yPercentage: UILabel!
     
     let tap = UITapGestureRecognizer()
     
@@ -52,10 +48,6 @@ class ViewController: UIViewController {
         var yPer : CGFloat = 100 * y / height
         
         //print stuff for now
-//        xPos.text = pos.x.description
-//        yPos.text = pos.y.description
-//        xPercentage.text = xPer.description
-//        yPercentage.text = yPer.description
         
         if ( 79 <= xPer && xPer <= 86 && 85 <= yPer && yPer <= 94 ) {
             let stoveMainView = self.storyboard?.instantiateViewControllerWithIdentifier("stoveMainView") as StoveController
