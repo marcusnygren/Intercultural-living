@@ -11,5 +11,6 @@ import UIKit
 class CustomHomeCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var imageView: UIImageView!
-    
+    @IBOutlet weak var progressBar: UIProgressView!
+        
 }

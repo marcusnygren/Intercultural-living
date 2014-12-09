@@ -12,10 +12,12 @@ class HomeController: UIViewController,UICollectionViewDataSource,UICollectionVi
 
     var icons:[String] = []
     var modules:[String] = []
+    var progress:[Float] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         icons = [ "icon_home_migration_office.png" , "icon_home_work_office.png" , "icon_home_living.png" , "icon_home_sweden.png" , "icon_home_other.png" ]
+        progress = [ 0.5 , 0.6 , 0.0 , 0.2 , 0.3 ]
         modules = [ "" , "" , "apartmentView" , "", "" ]
     }
     
@@ -34,6 +36,7 @@ class HomeController: UIViewController,UICollectionViewDataSource,UICollectionVi
     func collectionView(collectionView: UICollectionView,cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         var cell : CustomHomeCollectionViewCell = collectionView.dequeueReusableCellWithReuseIdentifier("homeCollectionViewCell", forIndexPath: indexPath) as CustomHomeCollectionViewCell
         cell.imageView.image=UIImage(named: icons[indexPath.row]) //UIImage(named: icons[indexPath.row])
+        cell.progressBar.setProgress(progress[indexPath.row], animated: true)
         return cell
     }
     
