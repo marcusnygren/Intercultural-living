@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0923728C1A36F0A8000B1347 /* icon_home_car.png in Resources */ = {isa = PBXBuildFile; fileRef = 092372891A36F0A7000B1347 /* icon_home_car.png */; };
+		0923728D1A36F0A8000B1347 /* icon_home_education.png in Resources */ = {isa = PBXBuildFile; fileRef = 0923728A1A36F0A7000B1347 /* icon_home_education.png */; };
+		0923728E1A36F0A8000B1347 /* icon_home_leisure.png in Resources */ = {isa = PBXBuildFile; fileRef = 0923728B1A36F0A7000B1347 /* icon_home_leisure.png */; };
 		09539C871A2F649A00FCBCB4 /* flat.png in Resources */ = {isa = PBXBuildFile; fileRef = 09539C861A2F649A00FCBCB4 /* flat.png */; };
 		09539C891A2F69D300FCBCB4 /* StoveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09539C881A2F69D300FCBCB4 /* StoveController.swift */; };
 		09539C8E1A2FB1F500FCBCB4 /* movie_stove_plate_size.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09539C8C1A2FB1F500FCBCB4 /* movie_stove_plate_size.mp4 */; };
@@ -42,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		092372891A36F0A7000B1347 /* icon_home_car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_home_car.png; path = Resources/icon_home_car.png; sourceTree = SOURCE_ROOT; };
+		0923728A1A36F0A7000B1347 /* icon_home_education.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_home_education.png; path = Resources/icon_home_education.png; sourceTree = SOURCE_ROOT; };
+		0923728B1A36F0A7000B1347 /* icon_home_leisure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_home_leisure.png; path = Resources/icon_home_leisure.png; sourceTree = SOURCE_ROOT; };
 		09539C861A2F649A00FCBCB4 /* flat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flat.png; path = Resources/flat.png; sourceTree = SOURCE_ROOT; };
 		09539C881A2F69D300FCBCB4 /* StoveController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoveController.swift; sourceTree = "<group>"; };
 		09539C8C1A2FB1F500FCBCB4 /* movie_stove_plate_size.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = movie_stove_plate_size.mp4; path = Resources/movie_stove_plate_size.mp4; sourceTree = SOURCE_ROOT; };
@@ -127,6 +133,9 @@
 		2CFBA0A01A1CF555000AB590 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				092372891A36F0A7000B1347 /* icon_home_car.png */,
+				0923728A1A36F0A7000B1347 /* icon_home_education.png */,
+				0923728B1A36F0A7000B1347 /* icon_home_leisure.png */,
 				099319531A30936C00008A42 /* icon_home_living.png */,
 				099319541A30936C00008A42 /* icon_home_migration_office.png */,
 				099319551A30936C00008A42 /* icon_home_other.png */,
@@ -247,11 +256,14 @@
 				09539C911A2FB36400FCBCB4 /* icon_stove_not_leave.png in Resources */,
 				09539C871A2F649A00FCBCB4 /* flat.png in Resources */,
 				0993195A1A30936C00008A42 /* icon_home_other.png in Resources */,
+				0923728D1A36F0A8000B1347 /* icon_home_education.png in Resources */,
+				0923728C1A36F0A8000B1347 /* icon_home_car.png in Resources */,
 				2CFBA0AD1A1CF555000AB590 /* LaunchScreen.xib in Resources */,
 				0993195B1A30936C00008A42 /* icon_home_sweden.png in Resources */,
 				09539C941A2FB43800FCBCB4 /* icon_stove_fire.png in Resources */,
 				099319581A30936C00008A42 /* icon_home_living.png in Resources */,
 				2CFBA0AA1A1CF555000AB590 /* Images.xcassets in Resources */,
+				0923728E1A36F0A8000B1347 /* icon_home_leisure.png in Resources */,
 				099319591A30936C00008A42 /* icon_home_migration_office.png in Resources */,
 				09539C8F1A2FB1F500FCBCB4 /* icon_stove_plate_size.png in Resources */,
 				09539C8E1A2FB1F500FCBCB4 /* movie_stove_plate_size.mp4 in Resources */,

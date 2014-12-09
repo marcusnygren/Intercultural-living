@@ -268,9 +268,9 @@
         <!--Navigation Controller-->
         <scene sceneID="Vbs-I9-ZLa">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mBA-6B-CEX" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="mBA-6B-CEX" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="uh0-fn-UBd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

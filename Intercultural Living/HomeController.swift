@@ -16,9 +16,9 @@ class HomeController: UIViewController,UICollectionViewDataSource,UICollectionVi
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        icons = [ "icon_home_migration_office.png" , "icon_home_work_office.png" , "icon_home_living.png" , "icon_home_sweden.png" , "icon_home_other.png" ]
-        progress = [ 0.5 , 0.6 , 0.0 , 0.2 , 0.3 ]
-        modules = [ "" , "" , "apartmentView" , "", "" ]
+        icons = [ "icon_home_migration_office.png" , "icon_home_work_office.png" , "icon_home_living.png" , "icon_home_sweden.png" , "icon_home_education.png" , "icon_home_car.png" , "icon_home_leisure.png" , "icon_home_other.png" ]
+        progress = [ 0.5 , 0.6 , 0.0 , 0.2 , 0.3 , 0.0 , 0.9 , 0.1 ]
+        modules = [ "" , "" , "apartmentView" , "", "" , "" , "" , "" ]
     }
     
     override func didReceiveMemoryWarning() {
