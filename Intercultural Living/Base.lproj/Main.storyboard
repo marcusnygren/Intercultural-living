@@ -135,13 +135,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Ymy-Xb-8o3">
-                                <rect key="frame" x="50" y="44" width="500" height="447"/>
+                                <rect key="frame" x="0.0" y="-0.5" width="600" height="536"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="15" minimumInteritemSpacing="15" id="icR-BU-h7p">
                                     <size key="itemSize" width="200" height="100"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="sectionInset" minX="20" minY="20" maxX="20" maxY="20"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="collectionViewCell" id="pFY-t3-ou1" customClass="CustomCollectionViewCell" customModule="Intercultural_Living" customModuleProvider="target">
@@ -202,8 +202,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="Ymy-Xb-8o3" secondAttribute="centerX" id="9tN-zM-L03"/>
-                            <constraint firstAttribute="height" secondItem="Ymy-Xb-8o3" secondAttribute="height" multiplier="1.2" id="KGg-An-Qlr"/>
-                            <constraint firstAttribute="width" secondItem="Ymy-Xb-8o3" secondAttribute="width" multiplier="1.2" id="Ms7-61-2Ip"/>
+                            <constraint firstAttribute="height" secondItem="Ymy-Xb-8o3" secondAttribute="height" id="KGg-An-Qlr"/>
+                            <constraint firstAttribute="width" secondItem="Ymy-Xb-8o3" secondAttribute="width" id="Ms7-61-2Ip"/>
                             <constraint firstAttribute="centerY" secondItem="Ymy-Xb-8o3" secondAttribute="centerY" id="ZXP-sI-pUI"/>
                         </constraints>
                     </view>
